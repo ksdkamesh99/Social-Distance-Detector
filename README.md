@@ -1,4 +1,4 @@
-# Social-Distance-Detector
+# ⛹️‍♂️Social-Distance-Detector
 
 ## Table of Content
   * [Demo](#demo)
@@ -13,12 +13,9 @@
   * [Technologies Used](#technologies-used)
   * [Team](#team)
   * [License](#license)
-  * [Credits](#credits)
 
 
 ## Demo
-Link: []()  
-
 ![](demo.gif)
 
 ## Overview
