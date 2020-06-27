@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 from scipy.spatial import distance
-
+import sys
 # Model Net loading
 
 net = cv2.dnn.readNetFromCaffe('deploy.prototxt','mobilenet_iter_73000.caffemodel')
@@ -14,8 +14,10 @@ CLASSES = ["background", "aeroplane", "bicycle", "bird", "boat",
      "dog", "horse", "motorbike", "person", "pottedplant", "sheep",
      "sofa", "train", "tvmonitor"]
 
+videofile=sys.argv[1]
+print(videofile)
 bounding_box_color = np.random.uniform(0, 255, size=(40, 3))
-camera=cv2.VideoCapture('test_video2.mp4')
+camera=cv2.VideoCapture(videofile)
 while camera.isOpened():
     ret,img=camera.read()
     (h, w) = img.shape[:2]
