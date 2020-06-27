@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 from scipy.spatial import distance
-
+import sys
 
 # Initialize the parameters
 confThreshold = 0.5  #Confidence threshold
@@ -17,7 +17,10 @@ net = cv2.dnn.readNetFromDarknet('yolov3.cfg','yolov3.weights')
 
 
 bounding_box_color = np.random.uniform(0, 255, size=(40, 3))
-camera=cv2.VideoCapture('test_video1.mp4')
+videofile=sys.argv[1]
+print(videofile)
+
+camera=cv2.VideoCapture(videofile)
 
 # Get the names of the output layers
 def getOutputsNames(net):
