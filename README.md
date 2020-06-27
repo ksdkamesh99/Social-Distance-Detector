@@ -71,7 +71,9 @@ If you'd like to request a new function, feel free to do so by opening an issue 
 
 ## Technologies Used
 
-![](https://forthebadge.com/images/badges/made-with-python.svg)
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)[![forthebadge](https://forthebadge.com/images/badges/its-not-a-lie-if-you-believe-it.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/built-by-developers.svg)](https://forthebadge.com)
 
 [<img target="_blank" src="https://pjreddie.com/media/image/yologo_2.png" width=200>](https://pjreddie.com/darknet/yolo/) [<img target="_blank" src="https://opencv-python-tutroals.readthedocs.io/en/latest/_static/opencv-logo-white.png" width=170>](https://opencv-python-tutroals.readthedocs.io/en/latest/)
 
