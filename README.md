@@ -19,7 +19,7 @@
 ![](demo.gif)
 
 ## Overview
-
+It is a social distance detector used to find track persons who are following social distance and who are not following
 ## Motivation
 
 ## Technical Aspect
