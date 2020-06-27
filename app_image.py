@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 from scipy.spatial import distance
-
+import sys
 # Model Net loading
 
 net = cv2.dnn.readNetFromCaffe('deploy.prototxt','mobilenet_iter_73000.caffemodel')
@@ -14,9 +14,12 @@ CLASSES = ["background", "aeroplane", "bicycle", "bird", "boat",
      "dog", "horse", "motorbike", "person", "pottedplant", "sheep",
      "sofa", "train", "tvmonitor"]
 
+
+imagefile=sys.argv[1]
+print(imagefile)
 bounding_box_color = np.random.uniform(0, 255, size=(40, 3))
 while True:
-    img=cv2.imread('test_image.jpg')
+    img=cv2.imread(imagefile)
     (h, w) = img.shape[:2]
     dist=[]
     index=[]
